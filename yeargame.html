@@ -25,6 +25,8 @@
 <body>
 
 <div class="container">
+    <span id="infoPic"></span>
+    <img class="ansPic nextQues" src="">
     <div class="row">
         <!-- This is for Team 1's name  -->
         <div class="col teamArea text-center hvr-bounce-to-bottom" id="one">
@@ -41,7 +43,6 @@
         <!-- The mid section at the top  -->
         <div class="col text-center" id="mid">
             <button type="button" class="btn btn-primary btn-lg hvr-ripple-out" id="beginGame">Flip to see who goes first</button>
-            <button type="button" class="btn btn-primary btn-lg hvr-ripple-out" id="gameOver">Tally Final Stats</button>
             <span id="questionNumber"></span>
         </div>
 
@@ -62,8 +63,10 @@
     <div class="row">
         <div class="col questionSection text-center">
             <span id="questionArea"></span>
+            <!-- <img class="ansPic" src=""> -->
             <br>
-            <button type="button" class="btn btn-warning btn-lg hvr-ripple-out" id="nextQuestion">Press for question</button> 
+            <button type="button" class="btn btn-info btn-lg hvr-ripple-out" id="coolInfo">Press to Learn More</button> 
+            <button type="button" class="btn btn-warning btn-lg hvr-ripple-out nextQues" id="nextQuestion">Press for question</button> 
         </div>
     </div>
 
@@ -83,6 +86,9 @@
     <div class="row">
         <div class="col text-center">
             <span id="timer"></span>
+            <video id="video" width="960" height="720" controls>
+                <source src="images/video.mp4" type="video/mp4">
+            </video>
             <br>
             <span class="infoSection" id="teamName"></span>
             <br>
