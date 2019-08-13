@@ -43,14 +43,12 @@ $(document).ready(function() {
     "The first Whole Foods store opened its doors in Austin in September 1980, after John Mackey and Renee Lawson Hardy, owners of the SaferWay health food store, joined forces with Craig Weller and Mark Skiles, owners of Clarksville Natural Grocery.",
     "The history of Tyson Foods started with an Arkansas farmer, John Tyson, who hauled about 50 chickens to sell in Chicago during 1935. He named his business Tyson Feed & Hatchery and began making a profit buying and selling chickens prior to World War II (1939–45).",
     "Wilber Hardee opened his first namesake restaurant in Greenville, North Carolina in 1960. Five months later he had his first franchisee and over the years his burger chain has spread to become a favorite throughout the Midwestern and Southeastern United States.",
-    "The first Five Guys opened in 1986, in the Westmark strip mall (3235 Columbia Pike, Arlington, Va) at Columbia Pike and Glebe Road in Arlington, Va.",
+    "Five Guys has been a Washington, DC area favorite since 1986 when Jerry and Janie Murrell offered sage advice to the four young Murrell brothers: 'Start a business or go to college.' The business route won and the Murrell family opened a carry-out burger joint in Arlington, Virginia.",
     "The first Red Lobster restaurant was opened on January 18, 1968, in Lakeland, Florida, by entrepreneurs Bill Darden and Charley Woodsby.",
     "In 1993, Ells took what he learned in San Francisco and opened the first Chipotle Mexican Grill in Denver, Colorado, in a former Dolly Madison Ice Cream store at 1644 East Evans Avenue, near the University of Denver campus, using an $85,000 loan from his father.",
     "Jerry Lapin, Al Lapin, and Albert Kallis founded International House of Pancakes in 1958 with the help of Sherwood Rosenberg and William Kaye. The first restaurant opened in Toluca Lake, Los Angeles, California.",
     "On Nov. 24, 1967, Truett Cathy altered the “fast food” landscape forever when the first Chick-fil-A restaurant opened in Atlanta’s Greenbriar Mall, an idea as original as his Chicken Sandwich.",
     "A couple who ran a Chicago antique shop one day decided to start selling toasted sandwiches and homemade desserts, and soon enough lines reached  around the block on a daily basis."];
-    
-
 
     // This starts the beginning of the game when the "Flip to see who goes first" is clicked
     $("#beginGame").click(function() {
