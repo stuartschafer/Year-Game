@@ -205,7 +205,7 @@ $(document).ready(function() {
         awardPoint();
     });
 
-
+    // This shows a picture and info about the business
     $("#coolInfo").click(function() {
         $("#coolInfo").hide();
         $(".teamArea").hide();
