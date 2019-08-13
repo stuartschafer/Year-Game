@@ -15,7 +15,7 @@ $(document).ready(function() {
     let coinflip = 0;
     let time = 0;
     let wrong = new Audio("sounds/trombone.mp3");
-    let clap = new Audio("sounds/clap.wav");
+    let clap = new Audio("sounds/winning.mp3");
     let boo = new Audio("sounds/boo.wav");
     $("#nextQuestion").hide();
     $("#coolInfo").hide();
